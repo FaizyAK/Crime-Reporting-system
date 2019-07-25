@@ -1,0 +1,229 @@
+
+
+*{
+    margin :0;
+    padding:0;
+
+}
+
+body{
+    overflow-x: hidden;
+    color:#333;
+}
+
+#pd1{
+    color: red!important;
+}
+
+
+#pd2{
+    color: blue!important;
+}
+
+.pd{
+    letter-spacing: 7px;
+}
+
+#report_form{
+    border : 1px solid grey;
+    margin: 10px 10%;
+    padding: 10px;
+}
+
+.row1{
+    padding: 20px 20px 0px 20px;
+}
+.row1_col2{
+    text-align: right;
+}
+
+.header{
+    /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/img2.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-position: center center;
+     
+    /*height:100vh;*/
+}
+
+#micon{
+    overflow-y: -webkit-paged-y;
+}
+
+.navbar{
+    
+    padding-top:20px;
+}
+.navbar-style{
+    box-shadow:0 5px 10px #efefef;
+    text-transform: uppercase;
+    margin-bottom: 0!important;
+    padding-top: 0;
+
+}
+
+.navbar .container{
+    padding-left: 11%;
+}
+
+nav ul{
+    height: 90px;
+    font-size: 17px;
+}
+
+.icon-bar{
+    background:#2d74e7;
+}
+
+
+.main{
+    /*background-image: url(../images/Police.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+*/
+background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/Police.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    background-position: center center;
+}
+
+.banner{
+    margin-top: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.banner-first h1{
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.big-text{
+    font-size: 80px;
+    margin: 0;
+    margin-top: -15px;
+    color:#2d74e7;
+
+}
+
+nav li a{
+    margin:0px 10px;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav li a:hover{
+    margin:0px 10px;
+    width: 150px;
+    padding: 10px;
+    background-color:white!important;
+}
+
+.banner-second a.btn-first:hover{
+    background:#f00;
+    border:none;
+    color:#fff;
+    box-shadow:5px 5px 10px #000;
+    transition:0.3s;
+
+}
+
+.banner-second a.btn-second:hover{
+    background:#2d74e7;
+    border:none;
+    color:#fff;
+    box-shadow:5px 5px 10px #000;
+    transition:0.3s;
+
+}
+
+
+
+a.btn-first{
+    width: 90%;
+    height: 20%;
+    color: #f00;
+    border:  2px solid #f00;
+    border-radius: 0px;
+    display: block;
+    /*font-size: larger;*/
+}
+
+a.btn-first h1{
+    margin-top:6%; 
+}
+
+a.btn-second{
+    margin-top: 10px;
+    width: 90%;
+    height: 20%;
+    color: #2d74e7;
+    border:  2px solid #2d74e7;
+    border-radius: 0px;
+    display: block;
+    /*font-size: larger;*/
+}
+
+a.btn-second h1{
+    margin-top:6%; 
+}
+
+/*
+a.btn-second{
+    width:90%;
+    height: 20%;
+    display: block;
+    font-size: larger;
+    background:transparent;
+     background:#2d74e7; 
+    color: #2d74e7;
+    border:  3px solid #2d74e7;
+     text-align: center; 
+     color:#333; 
+    
+}
+
+*/
+
+.review-box{
+    border: 1px solid grey;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.review-box img{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.footer{
+    padding: 30px;
+    background-color: #222;
+    color: #777;
+}
+
+@media only screen and (max-width: 600px){
+    .banner-first{
+        display: none;
+    }
+
+    .row1_col1, .row1_col2{
+        text-align: center;
+
+    }
+
+    .row1_col2{
+        /*margin-left: 10px;*/
+        display: none;
+    }
+
+    .banner-second h1{
+        margin-top: 10%!important;
+    }
+
+}
